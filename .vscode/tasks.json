@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "./script/pyinstaller.sh",
             "windows": {
-                "command": "./script/pyinstaller.cmd"
+                "command": ".\\script\\pyinstaller.cmd ${config:python.pythonPath}"
             },
             "group": "build",
             "presentation": {
